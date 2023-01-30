@@ -143,6 +143,7 @@
  
    
    ![image](https://user-images.githubusercontent.com/95883827/215515265-21bf70ee-928b-41ad-9f2c-8cc92021683b.png)
+  
 
  8. Compromising Integrity with Query chaining
    
