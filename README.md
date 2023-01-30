@@ -34,7 +34,7 @@
 * This task basically used SQL, I have use SQL statment during my working place and this task is not that very difficult for me. :) *
 ### 0 SELECT basics.
   
-1.Introducing the world table of countries 
+1. Introducing the world table of countries 
   ```sql
    SELECT population FROM world
    WHERE name = 'Germany'
