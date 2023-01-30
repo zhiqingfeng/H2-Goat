@@ -267,6 +267,8 @@
    SELECT name FROM world
    WHERE name LIKE '____'
    ```
+   
+   <img src="https://user-images.githubusercontent.com/95883827/215549501-666a303a-853a-449d-acf4-305b44f7d70d.png" width="150" height="280">
   
    ![image](https://user-images.githubusercontent.com/95883827/215549501-666a303a-853a-449d-acf4-305b44f7d70d.png)
 
