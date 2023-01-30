@@ -102,7 +102,7 @@
    UPDATE Employees SET department='Sales'
    WHERE first_name ='Tobi' and last_name = 'Barnett'
    ```
-  ![image](https://user-images.githubusercontent.com/95883827/215510132-eed5109b-7efe-4a09-8d4b-4bab326370c5.png)
+   ![image](https://user-images.githubusercontent.com/95883827/215510132-eed5109b-7efe-4a09-8d4b-4bab326370c5.png)
 
 3. Data Definition Language (DDL)
   
