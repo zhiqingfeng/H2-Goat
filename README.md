@@ -51,3 +51,32 @@
    ```
    
 ### 2 SELECT from World. 
+
+1. Introduction
+   ```sql
+   SELECT name, continent, population FROM world
+   ```
+   
+2. Large Countries
+   ```sql
+   SELECT name FROM world
+   WHERE population >= 200000000
+   ```
+   
+3. Per capita GDP
+   ```sql
+   SELECT name, (gdp/population) as PerCapitaGDP FROM world
+   WHERE population >= 200000000;
+   ```
+   
+4. South America In millions
+   ```sql
+   SELECT name, (population/1000000) FROM world
+   WHERE continent = 'South America'
+   ```
+   
+5. France, Germany, Italy
+   ```sql
+   SELECT name, population FROM world
+   WHERE name IN ('France', 'Germany', 'Italy')
+   ```
