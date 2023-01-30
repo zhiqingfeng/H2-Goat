@@ -129,4 +129,32 @@
    
    ![image](https://user-images.githubusercontent.com/95883827/215512932-e9c4f829-a3d8-48c5-ad13-b87f315f0ccf.png)
 
+ 6. Numeric SQL injection
+
+   ```sql
+   SELECT * FROM user_data WHERE Login_Count = 2 AND userid =2 or '2'='2'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215513922-6dc0f5d8-cb23-4ae4-81c9-69a274a956dd.png)
+
+   ```
+
+ 7. Compromising confidentiality with String SQL injection
+ 
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215515265-21bf70ee-928b-41ad-9f2c-8cc92021683b.png)
+
+ 8. Compromising Integrity with Query chaining
+   
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215515580-539b5140-6c2b-4d3e-b1ae-8825a9902b2f.png)
+
+ 9. Compromising Availability
+    
+    ```sql
+   DROP TABLE access_log
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215516039-55783314-9b3e-4d13-a7a9-91df40c37f17.png)
+
    
