@@ -23,8 +23,7 @@
 
 
 ## Sequel - Solve SQLZoo.
-* This task basically used SQL, I have use SQL statment during my working place and this task is not that very difficult for me. :) 
-* 
+* This task basically used SQL, I have use SQL statment during my working place and this task is not that very difficult for me. :) *
 - 0 SELECT basics.
   
 - 2 SELECT from World. 
