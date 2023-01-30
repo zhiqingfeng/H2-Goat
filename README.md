@@ -36,7 +36,7 @@
   
 1.Introducing the world table of countries 
    ```
-   SELECT population FROM world 
+   > __SELECT__  population FROM world 
    WHERE name = 'Germany'
    ```
 2. 
