@@ -26,7 +26,9 @@
 * This task basically used SQL, I have use SQL statment during my working place and this task is not that very difficult for me. :) *
 - 0 SELECT basics.
   
-1. ```SELECT population FROM world WHERE name = 'Germany'```
+1. ```
+   SELECT population FROM world WHERE name = 'Germany'
+   ```
 2.  
   
 - 2 SELECT from World. 
