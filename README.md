@@ -86,4 +86,9 @@
    ```
    ![image](https://user-images.githubusercontent.com/95883827/215506464-d0d8a8b3-8a1e-4eea-99e1-481a961f950a.png)
 
-   
+
+
+## Injected - Solve WebGoat.
+
+### A1 Injection (intro) 
+
