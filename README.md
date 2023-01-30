@@ -14,7 +14,10 @@
 ### Darknet Diaries
 -Bitcoin. This is the digital currency. 
 
-### CVE 
-- Explaination:
-- Why it matters?
+### CVE (Common Vulnerabilities and Exposures)
+[CVE-2022-47966](https://nvd.nist.gov/vuln/detail/CVE-2022-47966)
+
+Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache xmlsec (aka XML Security for Java) 1.4.1, because the xmlsec XSLT features, by design in that version, make the application responsible for certain security protections, and the ManageEngine applications did not provide those protections.
+
+This vulnerability already reported and addressed. The remote code execution vulnerability was due to the usage of an outdated third party dependency, Apache Santuario. 
 
