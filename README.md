@@ -21,3 +21,10 @@
 
 - This vulnerability already reported and addressed. The remote code execution vulnerability was due to the usage of an outdated third party dependency, Apache Santuario. 
 
+
+## Sequel - Solve SQLZoo.
+* This task basically used SQL, I have use SQL statment during my working place and this task is not that very difficult for me. :) 
+* 
+- 0 SELECT basics.
+  
+- 2 SELECT from World. 
