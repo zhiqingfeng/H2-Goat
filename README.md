@@ -158,3 +158,105 @@
    ![image](https://user-images.githubusercontent.com/95883827/215516039-55783314-9b3e-4d13-a7a9-91df40c37f17.png)
 
    
+# Voluntary Bonus
+
+## SQLZoo Tasks
+
+### SELECT names
+
+1. Find the country that start with Y
+   
+   ```sql
+    SELECT name FROM world
+    WHERE name LIKE 'Y%'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215547235-4d98bf34-8d2e-4b7b-8756-24ba77a05bce.png)
+
+   
+2. Find the countries that end with y
+   
+   ```sql
+    SELECT name FROM world
+    WHERE name LIKE '%y'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215547419-c89a8a42-71bc-4520-8629-d652b0ae8b9e.png)
+
+3. Find the countries that contain the letter x
+   
+   ```sql
+    SELECT name FROM world
+    WHERE name LIKE '%X%'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215548097-bfec5521-6186-446e-aed4-23d5c872c978.png)
+
+4. Find the countries that end with land
+   
+   ```sql
+    SELECT name FROM world
+    WHERE name LIKE '%land'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215548286-17f90054-e986-4686-918a-3eb7a64e4971.png)
+
+5. Find the countries that start with C and end with ia
+   
+   ```sql
+    SELECT name FROM world
+    WHERE name LIKE 'C%ia'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215548476-8c0a899d-2132-4ee6-a07d-2fae72aca108.png)
+   
+6. Find the country that has oo in the name
+   
+   ```sql
+    SELECT name FROM world
+    WHERE name LIKE '%oo%'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215548669-02bb6b23-ef13-491b-a9b9-59a2a2165803.png)
+
+7. Find the countries that have three or more a in the name
+   
+   ```sql
+   SELECT name FROM world
+   WHERE name LIKE '%a%a%a%'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215548953-e55375b7-e195-4cff-8b8a-6968030b8d6e.png)
+
+8. Find the countries that have "t" as the second character.
+   
+   ```sql
+   SELECT name FROM world
+   WHERE name LIKE '_t%'
+   ORDER BY name
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215549144-c1a6c73e-0622-432b-9ba6-9fe05150ac52.png)
+
+9. Find the countries that have two "o" characters separated by two others.
+   
+   ```sql
+   SELECT name FROM world
+   WHERE name LIKE '%o__o%'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215549344-7f66d5a8-669e-4666-9d07-595b3b3f07ac.png)
+
+10. Find the countries that have exactly four characters.
+    
+    ```sql
+   SELECT name FROM world
+   WHERE name LIKE '____'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215549501-666a303a-853a-449d-acf4-305b44f7d70d.png)
+
+
+
+   
+
