@@ -254,7 +254,7 @@
    WHERE name LIKE '____'
    ```
    
-   <img src="[https://your-image-url.type](https://user-images.githubusercontent.com/95883827/215549501-666a303a-853a-449d-acf4-305b44f7d70d.png)" width="100" height="100">
+   <img src="(https://user-images.githubusercontent.com/95883827/215549501-666a303a-853a-449d-acf4-305b44f7d70d.png)" width="100" height="100">
    ![image](https://user-images.githubusercontent.com/95883827/215549501-666a303a-853a-449d-acf4-305b44f7d70d.png)
 
 
