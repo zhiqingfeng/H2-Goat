@@ -32,13 +32,22 @@
 
 ## Sequel - Solve SQLZoo.
 * This task basically used SQL, I have use SQL statment during my working place and this task is not that very difficult for me. :) *
-- 0 SELECT basics.
+### 0 SELECT basics.
   
 1.Introducing the world table of countries 
    ```sql
-   > SELECT population FROM world 
+   SELECT population FROM world 
    WHERE name = 'Germany'
    ```
-2. 
-  
-- 2 SELECT from World. 
+2. Scandinavia
+    ```sql
+   SELECT name, population FROM world
+   WHERE name IN ('Sweden', 'Norway','Denmark')
+   ```
+3. Just the right size
+    ```sql
+   SELECT name, area FROM world
+   WHERE area BETWEEN 200000 AND 250000
+   ```
+   
+### 2 SELECT from World. 
