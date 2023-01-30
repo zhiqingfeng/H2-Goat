@@ -104,4 +104,10 @@
    ```
   ![image](https://user-images.githubusercontent.com/95883827/215510132-eed5109b-7efe-4a09-8d4b-4bab326370c5.png)
 
+3. Data Definition Language (DDL)
+  
+  ```sql
+   ALTER TABLE employees ADD phone varchar(20)
+   ```
+   ![image](https://user-images.githubusercontent.com/95883827/215511129-1a9b2424-4242-4e66-99cc-f9a55d197dc3.png)
 
