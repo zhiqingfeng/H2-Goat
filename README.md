@@ -171,7 +171,7 @@
    
    <img src="https://user-images.githubusercontent.com/95883827/215516039-55783314-9b3e-4d13-a7a9-91df40c37f17.png" width="700" height="120">
 
-*For the question 7 to 9, I can't find the solution to reslove them, but I am still tring to do for them. :) 
+*For the question 7 to 9, I can't find the solution to reslove them, but I am still tring to do for them. :)*
 
 # Voluntary Bonus
 
