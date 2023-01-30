@@ -94,7 +94,7 @@
 
 1. What is SQL
   
-  ![image](https://user-images.githubusercontent.com/95883827/215509266-3dab2943-da7c-4e43-bd79-b249366ba3ec.png)
+   ![image](https://user-images.githubusercontent.com/95883827/215509266-3dab2943-da7c-4e43-bd79-b249366ba3ec.png)
 
 2. Data Manipulation Language (DML) 
 
@@ -102,6 +102,7 @@
    UPDATE Employees SET department='Sales'
    WHERE first_name ='Tobi' and last_name = 'Barnett'
    ```
+   
    ![image](https://user-images.githubusercontent.com/95883827/215510132-eed5109b-7efe-4a09-8d4b-4bab326370c5.png)
 
 3. Data Definition Language (DDL)
@@ -109,6 +110,7 @@
    ```sql
    ALTER TABLE employees ADD phone varchar(20)
    ```
+   
    ![image](https://user-images.githubusercontent.com/95883827/215511129-1a9b2424-4242-4e66-99cc-f9a55d197dc3.png)
 
 4. Data Control Language (DCL)
@@ -116,5 +118,15 @@
    ```sql
    GRANT ALTER TABLE TO UnauthorizedUser
    ```
+   
    ![image](https://user-images.githubusercontent.com/95883827/215511716-2dd1281c-4768-4f68-8bc3-9ce14453eb7e.png)
 
+5. String SQL injection
+   
+   ```sql
+   SELECT * FROM user_data WHERE first_name ='John' AND last_name = 'Smith' or '1'='1'
+   ```
+   
+   ![image](https://user-images.githubusercontent.com/95883827/215512932-e9c4f829-a3d8-48c5-ad13-b87f315f0ccf.png)
+
+   
