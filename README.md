@@ -108,7 +108,7 @@
 
 1. What is SQL
   
-   <img src="https://user-images.githubusercontent.com/95883827/215509266-3dab2943-da7c-4e43-bd79-b249366ba3ec.png" width="600" height="100">
+   <img src="https://user-images.githubusercontent.com/95883827/215509266-3dab2943-da7c-4e43-bd79-b249366ba3ec.png" width="700" height="120">
 
 2. Data Manipulation Language (DML) 
 
@@ -117,7 +117,7 @@
    WHERE first_name ='Tobi' and last_name = 'Barnett'
    ```
    
-   ![image](https://user-images.githubusercontent.com/95883827/215510132-eed5109b-7efe-4a09-8d4b-4bab326370c5.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215510132-eed5109b-7efe-4a09-8d4b-4bab326370c5.png" width="700" height="120">
 
 3. Data Definition Language (DDL)
   
@@ -125,7 +125,7 @@
    ALTER TABLE employees ADD phone varchar(20)
    ```
    
-   ![image](https://user-images.githubusercontent.com/95883827/215511129-1a9b2424-4242-4e66-99cc-f9a55d197dc3.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215511129-1a9b2424-4242-4e66-99cc-f9a55d197dc3.png" width="700" height="120">
 
 4. Data Control Language (DCL)
    
@@ -133,7 +133,7 @@
    GRANT ALTER TABLE TO UnauthorizedUser
    ```
    
-   ![image](https://user-images.githubusercontent.com/95883827/215511716-2dd1281c-4768-4f68-8bc3-9ce14453eb7e.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215511716-2dd1281c-4768-4f68-8bc3-9ce14453eb7e.png" width="700" height="120">
 
 5. String SQL injection
    
@@ -141,7 +141,7 @@
    SELECT * FROM user_data WHERE first_name ='John' AND last_name = 'Smith' or '1'='1'
    ```
    
-   ![image](https://user-images.githubusercontent.com/95883827/215512932-e9c4f829-a3d8-48c5-ad13-b87f315f0ccf.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215512932-e9c4f829-a3d8-48c5-ad13-b87f315f0ccf.png" width="700" height="120">
 
 6. Numeric SQL injection
 
@@ -149,19 +149,19 @@
    SELECT * FROM user_data WHERE Login_Count = 2 AND userid =2 or '2'='2'
    ```
    
-   ![image](https://user-images.githubusercontent.com/95883827/215513922-6dc0f5d8-cb23-4ae4-81c9-69a274a956dd.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215513922-6dc0f5d8-cb23-4ae4-81c9-69a274a956dd.png" width="700" height="120">
 
 
 7. Compromising confidentiality with String SQL injection
  
    
-   ![image](https://user-images.githubusercontent.com/95883827/215515265-21bf70ee-928b-41ad-9f2c-8cc92021683b.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215515265-21bf70ee-928b-41ad-9f2c-8cc92021683b.png" width="700" height="120">
   
 
 8. Compromising Integrity with Query chaining
    
    
-   ![image](https://user-images.githubusercontent.com/95883827/215515580-539b5140-6c2b-4d3e-b1ae-8825a9902b2f.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215515580-539b5140-6c2b-4d3e-b1ae-8825a9902b2f.png" width="700" height="120">
 
 9. Compromising Availability
     
@@ -169,7 +169,7 @@
    DROP TABLE access_log
    ```
    
-   ![image](https://user-images.githubusercontent.com/95883827/215516039-55783314-9b3e-4d13-a7a9-91df40c37f17.png)
+   <img src="https://user-images.githubusercontent.com/95883827/215516039-55783314-9b3e-4d13-a7a9-91df40c37f17.png" width="700" height="120">
 
    
 # Voluntary Bonus
