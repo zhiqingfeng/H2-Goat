@@ -151,7 +151,7 @@
 
  9. Compromising Availability
     
-    ```sql
+   ```sql
    DROP TABLE access_log
    ```
    
