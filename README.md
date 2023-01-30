@@ -108,7 +108,7 @@
 
 1. What is SQL
   
-   <img src="https://user-images.githubusercontent.com/95883827/215509266-3dab2943-da7c-4e43-bd79-b249366ba3ec.png" width="600" height="300">
+   <img src="https://user-images.githubusercontent.com/95883827/215509266-3dab2943-da7c-4e43-bd79-b249366ba3ec.png" width="600" height="100">
 
 2. Data Manipulation Language (DML) 
 
