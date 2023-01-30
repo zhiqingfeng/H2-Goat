@@ -92,3 +92,16 @@
 
 ### A1 Injection (intro) 
 
+1. What is SQL
+  
+  ![image](https://user-images.githubusercontent.com/95883827/215509266-3dab2943-da7c-4e43-bd79-b249366ba3ec.png)
+
+2. Data Manipulation Language (DML) 
+
+   ```sql
+   UPDATE Employees SET department='Sales'
+   WHERE first_name ='Tobi' and last_name = 'Barnett'
+   ```
+  ![image](https://user-images.githubusercontent.com/95883827/215510132-eed5109b-7efe-4a09-8d4b-4bab326370c5.png)
+
+
