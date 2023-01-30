@@ -35,7 +35,7 @@
 ### 0 SELECT basics.
   
 1. Introducing the world table of countries 
-  ```sql
+   ```sql
    SELECT population FROM world
    WHERE name = 'Germany'
    ```
