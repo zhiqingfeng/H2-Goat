@@ -137,7 +137,6 @@
    
    ![image](https://user-images.githubusercontent.com/95883827/215513922-6dc0f5d8-cb23-4ae4-81c9-69a274a956dd.png)
 
-   ```
 
  7. Compromising confidentiality with String SQL injection
  
