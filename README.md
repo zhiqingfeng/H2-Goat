@@ -56,27 +56,34 @@
    ```sql
    SELECT name, continent, population FROM world
    ```
-   
+   ![image](https://user-images.githubusercontent.com/95883827/215506289-e33ec040-fa5a-4252-a6cf-cfb24b4bd71c.png)
+
 2. Large Countries
    ```sql
    SELECT name FROM world
    WHERE population >= 200000000
    ```
-   
+   ![image](https://user-images.githubusercontent.com/95883827/215506333-0d88aaff-5b0f-4b70-8fac-b13fa9b79bf6.png)
+
 3. Per capita GDP
    ```sql
    SELECT name, (gdp/population) as PerCapitaGDP FROM world
    WHERE population >= 200000000;
    ```
-   
+   ![image](https://user-images.githubusercontent.com/95883827/215506378-535587eb-932b-486d-ba39-1802f9d7a3f4.png)
+
 4. South America In millions
    ```sql
    SELECT name, (population/1000000) FROM world
    WHERE continent = 'South America'
    ```
-   
+   ![image](https://user-images.githubusercontent.com/95883827/215506427-2df84d21-cf2d-4533-a1a9-2751d610bbe9.png)
+
 5. France, Germany, Italy
    ```sql
    SELECT name, population FROM world
    WHERE name IN ('France', 'Germany', 'Italy')
    ```
+   ![image](https://user-images.githubusercontent.com/95883827/215506464-d0d8a8b3-8a1e-4eea-99e1-481a961f950a.png)
+
+   
