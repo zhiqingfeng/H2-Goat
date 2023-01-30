@@ -1,5 +1,13 @@
 # H2-Goat
 
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+@@ text in purple (and bold)@@
+```
+
 ## Read the summarize
 
 ### Security Misconfiguration
@@ -26,9 +34,11 @@
 * This task basically used SQL, I have use SQL statment during my working place and this task is not that very difficult for me. :) *
 - 0 SELECT basics.
   
-1. ```
-   SELECT population FROM world WHERE name = 'Germany'
+1.Introducing the world table of countries 
    ```
-2.  
+   SELECT population FROM world 
+   WHERE name = 'Germany'
+   ```
+2. 
   
 - 2 SELECT from World. 
