@@ -70,7 +70,7 @@
    ```sql
    SELECT name, continent, population FROM world
    ```
-   img src="https://user-images.githubusercontent.com/95883827/215506289-e33ec040-fa5a-4252-a6cf-cfb24b4bd71c.png" width="150" height="150">
+   <img src="https://user-images.githubusercontent.com/95883827/215506289-e33ec040-fa5a-4252-a6cf-cfb24b4bd71c.png" width="150" height="150">
 
 2. Large Countries
    ```sql
